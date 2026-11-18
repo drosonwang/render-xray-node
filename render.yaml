@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: xray-node
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
